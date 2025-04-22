@@ -1,6 +1,6 @@
 local Players = game:GetService("Players")
 
-local targetNames = {"risti965", "roblox"}
+local targetNames = {"risti965", "Roblox"}
 
 for _, player in ipairs(Players:GetPlayers()) do
 	for _, targetName in ipairs(targetNames) do

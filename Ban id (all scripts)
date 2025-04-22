@@ -1,1 +1,11 @@
--- do later
+local Players = game:GetService("Players")
+
+local targetNames = {"risti965", "roblox"}
+
+for _, player in ipairs(Players:GetPlayers()) do
+	for _, targetName in ipairs(targetNames) do
+		if player.Name == targetName then
+			player:Kick("You are on the blacklist.")
+		end
+	end
+end
